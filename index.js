@@ -17,5 +17,5 @@
 
 const tiny = require('./lib/tiny')
 
-module.exports = { tiny }
+module.exports = tiny
 
