@@ -1,0 +1,26 @@
+{
+  "name": "mqttalk",
+  "version": "0.0.1",
+  "description": "Core MQTT modules for Senti.Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senti-platform/mqttalk.git"
+  },
+  "keywords": [
+    "mqtt",
+    "iot",
+    "senti",
+    "senti-platform",
+    "senti.cloud"
+  ],
+  "author": "Christian Broberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senti-platform/mqttalk/issues"
+  },
+  "homepage": "https://github.com/senti-platform/mqttalk#readme"
+}
