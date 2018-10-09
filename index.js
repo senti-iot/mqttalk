@@ -16,6 +16,6 @@
 // }
 
 const tiny = require('./lib/tiny')
+const module1 = require('./lib/module1')
 
-module.exports = tiny
-
+module.exports = tiny, module1
