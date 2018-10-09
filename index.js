@@ -15,5 +15,7 @@
 // 	return string.replace(/\s/g, "")
 // }
 
-exports.tiny = require('./lib/tiny')
+const tiny = require('./lib/tiny')
+
+module.exports = { tiny }
 
