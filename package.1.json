@@ -1,9 +1,10 @@
 {
   "name": "mqttalk",
-  "version": "0.0.15",
+  "version": "0.0.14",
   "description": "Core MQTT modules for Senti.Cloud",
   "main": "mqttalk.js",
-  "scripts": {    
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
