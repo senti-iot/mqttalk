@@ -1,13 +1,19 @@
 var mqttalk = require('../mqttalk')
 // var module = require('mqttalk/lib/module')
 
-const jsonToObject = mqttalk.jsonToObject
 const jsonFromObject = mqttalk.jsonFromObject
+const jsonToObject = mqttalk.jsonToObject
+const execCmd = mqttalk.execCmd
+const timestamp = mqttalk.timestamp
+const encrypt = mqttalk.encrypt
+const decrypt = mqttalk.decrypt
+const createPayload = mqttalk.createPayload
+
 
 const payload = {
 	id: 1,
 	status: 'online',
-	timestamp: Date.now()
+	timestamp: timestamp()
 }
 
 let json = jsonFromObject(payload)
@@ -16,3 +22,14 @@ let obj = jsonToObject(json)
 console.log(json)
 console.log(obj)
 
+// execCmd('node', '-v')
+
+let encrypted = encrypt('Dette bliver krypteret')
+
+console.log(encrypted)
+
+let decrypted = decrypt(encrypted)
+console.log(decrypted)
+
+console.log(createPayload('This is my message', 'senti/sensor/sentiwii/8020'))
+console.log(createPayload(encrypt('This is my message'), 'senti/sensor/sentiwii/8020'))

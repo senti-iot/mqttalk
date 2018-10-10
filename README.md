@@ -9,9 +9,15 @@ npm i mqttalk
 
 ## API
 
-### jsonPut(object):json
+### jsonFromObject(object):json
 
-### jsonGet(json):object
+### jsonToObject(json):object
+
+### encrypt(payload)
+
+### decrypt(payload)
+
+### timestamp
 
 
 

@@ -12,8 +12,17 @@
 
 var jsonFromObject = require('./lib/jsonfromobject')
 var jsonToObject = require('./lib/jsontoobject')
+var execCmd = require('./lib/execcmd')
+var timestamp = require('./lib/timestamp')
+var encrypt = require('./lib/encryption').encrypt
+var decrypt = require('./lib/encryption').decrypt
+var createPayload = require('./lib/createpayload')
 
 // Expose mqttalk modules
 module.exports.jsonFromObject = jsonFromObject
 module.exports.jsonToObject = jsonToObject
-
+module.exports.execCmd = execCmd
+module.exports.timestamp = timestamp
+module.exports.encrypt = encrypt
+module.exports.decrypt = decrypt
+module.exports.createPayload = createPayload
