@@ -22,4 +22,5 @@ deploy:
 
 notifications: 
   email: true
-  slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
+  # slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
+  slack: "webhouseteam:T1GKW3Y83/BD4HVLDA8/IAP9iIxvy5tpO7Sv8AjZGVkx"
