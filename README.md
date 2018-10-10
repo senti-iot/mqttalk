@@ -7,3 +7,9 @@ https://www.npmjs.com/package/mqttalk
 npm i mqttalk
 ```
 
+## API
+
+### jsonPut
+
+### jsonGet
+
