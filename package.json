@@ -3,8 +3,7 @@
   "version": "0.0.21",
   "description": "Core MQTT modules for Senti.Cloud",
   "main": "mqttalk.js",
-  "scripts": {    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/senti-platform/mqttalk.git"
