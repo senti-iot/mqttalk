@@ -1,0 +1,26 @@
+sudo: false
+
+language: node_js
+
+node_js:
+- stable
+
+branches:
+  only:
+  - master
+
+#script:
+#- npm build
+
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: cb@webhouse.dk
+  api_key: $NPM_TOKEN
+  on:
+    repo: senti-platform/mqttalk
+
+notifications: 
+  email: true
+  # slack: "webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu"
+  slack: "webhouseteam:T1GKW3Y83/BD4HVLDA8/IAP9iIxvy5tpO7Sv8AjZGVkx"
