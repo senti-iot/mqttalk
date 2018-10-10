@@ -13,11 +13,9 @@
 var module1 = require('./lib/module1')
 var module2 = require('./lib/module2')
 var module3 = require('./lib/module3')
-var tiny = require('./lib/tiny')
+
 
 // Expose mqttalk modules
 module.exports.module1 = module1
 module.exports.module2 = module2
 module.exports.module2 = module3
-module.exports.tiny = tiny
-
