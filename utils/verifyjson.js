@@ -7,11 +7,12 @@ const verifyJSON = (json) => {
 	try {
 		parsed = JSON.parse(json)
 	} catch (err) {
-		return err
+		return false
 	}
-	return parsed
+	return true
 }
 
 // Expose verifyJSON module
 module.exports = verifyJSON
 
+// console.log(verifyJSON('{"text":"Hello World", "number": 10}'))

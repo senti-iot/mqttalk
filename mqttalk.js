@@ -10,10 +10,10 @@
 
  // Import modules
 
-var jsonPut = require('./lib/jsonput')
-var jsonGet = require('./lib/jsonget')
+var jsonFromObject = require('./lib/jsonfromobject')
+var jsonToObject = require('./lib/jsontoobject')
 
 // Expose mqttalk modules
-module.exports.jsonPut = jsonPut
-module.exports.jsonGet = jsonGet
+module.exports.jsonFromObject = jsonFromObject
+module.exports.jsonToObject = jsonToObject
 
