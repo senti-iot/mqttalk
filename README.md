@@ -9,7 +9,9 @@ npm i mqttalk
 
 ## API
 
-### jsonPut
+### jsonPut(object):json
 
-### jsonGet
+### jsonGet(json):object
+
+
 
