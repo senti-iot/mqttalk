@@ -17,6 +17,7 @@ var timestamp = require('./lib/timestamp')
 var encrypt = require('./lib/encryption').encrypt
 var decrypt = require('./lib/encryption').decrypt
 var createPayload = require('./lib/createpayload')
+var pub = require('./lib/pub')
 
 // Expose mqttalk modules
 module.exports.jsonFromObject = jsonFromObject
@@ -26,3 +27,4 @@ module.exports.timestamp = timestamp
 module.exports.encrypt = encrypt
 module.exports.decrypt = decrypt
 module.exports.createPayload = createPayload
+module.exports.pub = pub
