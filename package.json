@@ -1,6 +1,6 @@
 {
   "name": "mqttalk",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "Core MQTT modules for Senti.Cloud",
   "main": "mqttalk.js",
   "scripts": {},
