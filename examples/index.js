@@ -8,6 +8,7 @@ const timestamp = mqttalk.timestamp
 const encrypt = mqttalk.encrypt
 const decrypt = mqttalk.decrypt
 const createPayload = mqttalk.createPayload
+// const pub = mqttalk.pub
 
 
 const payload = {
