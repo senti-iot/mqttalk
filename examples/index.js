@@ -22,8 +22,6 @@ let obj = jsonToObject(json)
 console.log(json)
 console.log(obj)
 
-// execCmd('node', '-v')
-
 let encrypted = encrypt('Dette bliver krypteret')
 
 console.log(encrypted)
@@ -33,3 +31,5 @@ console.log(decrypted)
 
 console.log(createPayload('This is my message', 'senti/sensor/sentiwii/8020'))
 console.log(createPayload(encrypt('This is my message'), 'senti/sensor/sentiwii/8020'))
+
+console.log(execCmd('node', '-v'))
