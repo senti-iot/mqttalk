@@ -9,6 +9,7 @@ const encrypt = mqttalk.encrypt
 const decrypt = mqttalk.decrypt
 const createPayload = mqttalk.createPayload
 // const pub = mqttalk.pub
+// const sub = mqttalk.sub
 
 
 const payload = {
