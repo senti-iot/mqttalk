@@ -1,6 +1,6 @@
 {
   "name": "mqttalk",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "Core MQTT modules for Senti.Cloud",
   "main": "mqttalk.js",
   "scripts": {},
@@ -15,7 +15,11 @@
     "senti-platform",
     "senti.cloud"
   ],
-  "author": "Christian Broberg",
+  "author": {
+	"name": "Christian Broberg",
+	"email": "apisupport@senti.cloud",
+	"url": "https://senti.cloud/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/senti-platform/mqttalk/issues"
